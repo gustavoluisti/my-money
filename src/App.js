@@ -1,7 +1,6 @@
 import React from 'react';
 import useGet from './useGet'
 
-const url = 'https://meusentimento-2c1f7.firebaseio.com/movimentacoes/2019-08.json'
 
 function App() {
   const data = useGet(url)
